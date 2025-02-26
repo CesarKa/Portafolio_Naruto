@@ -1,6 +1,9 @@
 .main-body {
     background-color: black;
     opacity: 1;
+    width: 90%;
+    margin: 0 auto;
+    
 
 }
 
@@ -14,6 +17,22 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+.banner {
+    position: sticky;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem; 
+    .imgn {  
+        /* background-size: contain; */
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        display: block;
+    }    
+}
+
 
 .footer {
     background-color: red;
