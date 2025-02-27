@@ -2,7 +2,8 @@
     background-color: red;
     color: white;
     justify-content: center;
-    overflow-wrap: break-word;
+    anchor-scope: none;
+    /* overflow-wrap: break-word; */
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
     margin: 2rem 2rem;
@@ -11,4 +12,5 @@
     border: 0.3rem solid white;
     text-align: center;
     padding: 2rem;
+    
 }

@@ -20,10 +20,13 @@
         <h1 class="title">
             Naruto Uzumaki   
         </h1>
-        <p class="p">¡Hola, mundo! Soy Naruto Uzumaki, un programador junior con grandes sueños.
-
+        <p>
+            ¡Hola, mundo! Soy Naruto Uzumaki, un programador junior con grandes sueños.
+        </p>
+        <p>
             Desde que descubrí el mundo del desarrollo de software, supe que quería convertirme en un gran programador, capaz de crear soluciones innovadoras y enfrentar cualquier desafío con determinación. Me apasiona el código, el aprendizaje continuo y la mejora constante, porque sé que cada línea escrita me acerca un paso más a mi meta.
-            
+        </p>
+        <p> 
             Actualmente, estoy adquiriendo experiencia en JavaScript, Python, desarrollo web siempre buscando mejorar mis habilidades y aprender de los mejores. Me encanta trabajar en equipo, resolver problemas y, sobre todo, superar cualquier bug que se interponga en mi camino.
         </p>
         <h2 class="title">Mis skills</h2>
@@ -55,7 +58,83 @@
             <img src="../Assest/Imagenes/Naruto’s-Age-Timeline.avif" width="400" alt="">
         </h3>
     </section>
-    <h4 class="title">Formulario</h4>
+    <h4 class="title">Formulario
+        <form> 
+            <div class="form-element">
+                <label for="first-name">Nombre</label>
+                <input 
+                    type="text" 
+                    name="first-name" 
+                    id="first-name" 
+                    placeholder="Ingresa tu nombre"
+                    required
+                    autocomplete="given-name"
+                >
+            </div>
+            <div class="form-element">
+                <label for="last-name">Apellidos</label>
+                <input 
+                    type="text" 
+                    name="last-name" 
+                    id="last-name" 
+                    placeholder="Ingresa tus apellidos"
+                    required
+                    autocomplete="family-name"
+                >
+            </div>
+            <div class="form-element">
+                <label for="tel">Enter your number</label>
+                <!--<input type="number" step="100" name="telephone" id="tel" autocomplete="off">-->
+                <input 
+                required
+                type="tel" 
+                name="telephone" 
+                id="tel" 
+                autocomplete="off"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="123-123-1234"
+                >
+            </div>
+            <div class="form-element">
+                <label for="mail"> Github user name </label>
+                <!--Parametros para un input 1. type, 2. name,  3. id"un identificador" -->
+                <input 
+                type="email" 
+                name="email" 
+                id="mail" 
+                autocomplete="off" 
+                value="test@test.com"
+                >
+            </div>
+            <fieldset>
+                <legend>¿Cómo me conociste?</legend>
+                <label for="un">Universidad</label>
+                <input required type="radio" name="fav" id="un" value="un" checked>
+                <label for="kc">Keepcoding kick-off</label>
+                <input required type="radio" name="fav" id="kc" value="Keepcooding kick-off">
+                <label for="col">Colégio</label>
+                <input required type="radio" name="fav" id="col" value="Colégio">
+                <label for="gh">Github</label>
+                <input required type="radio" name="fav" id="gh" value="Github">
+            </fieldset>
+            <div class="form-element">
+                <label for="bio">Mas imformación</label>
+                <textarea name="bio" id="bio" rows="6" placeholder="¿Que mas quieres saber?"></textarea>
+            </div>
+            <!-- <div>
+                <button class="btn" type="button">click</button>
+            </div> -->
+            <div>
+                <label for="remember">Remember me</label>
+                <input type="checkbox" name="remember" id="remember">
+            </div>
+            </select>
+            <div>
+                <input class="btn secondary" type="reset" value="reset">
+                <button class="btn" type="submit">Guardar</button>
+            </div>
+        </form>
+    </h4>
     <section>
         <footer class="footer">
             <p>2025 <strong>Naruto Portfolio</strong> Redes sociales</p>
