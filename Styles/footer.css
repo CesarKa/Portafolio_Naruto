@@ -1,0 +1,14 @@
+.footer {
+    background-color: red;
+    color: white;
+    justify-content: center;
+    overflow-wrap: break-word;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    margin: 2rem 2rem;
+    /* border-color: white;
+    border-width: 10px; */
+    border: 0.3rem solid white;
+    text-align: center;
+    padding: 2rem;
+}
