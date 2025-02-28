@@ -1,16 +1,16 @@
 .footer {
-    background-color: red;
+    background-color: rgb(122, 10, 10);
     color: white;
     justify-content: center;
     anchor-scope: none;
     /* overflow-wrap: break-word; */
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
-    margin: 2rem 2rem;
+    /* margin: 2rem 2rem; */
     /* border-color: white;
     border-width: 10px; */
-    border: 0.3rem solid white;
+    /* border: 0.1rem solid white; */
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     
 }
