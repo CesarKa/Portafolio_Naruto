@@ -12,12 +12,13 @@
     border: 5px solid #e9a75c;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(143, 142, 142, 0.2);
-    gap: 2%;
+    margin-bottom: 5%;
 
 }
 .form-element {
     display: flex;
     flex-direction: column;
+    padding: 2%;
 }
 
 label {

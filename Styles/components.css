@@ -1,15 +1,23 @@
-.principal {
+.btn {
     color: var(--main-text-color);
     background-color: var(--main-brand-color);
     text-decoration: none;
     padding: 0.7rem;
     display: inline-block;
     border-radius: 5px;
-    border: 1px solid var(--main-text-color);
+    border: 1px solid #e9a75c;
     transition: all 0.3s;
-    cursor: pointer;
+    /* cursor: pointer; */
     &.secondary {
         background-color: transparent;
         border: 1px solid var(--main-text-color);
     }
+}
+
+@media screen and (width > 768px) { 
+    .btn{
+        display: none;
+    }
+
+
 }
