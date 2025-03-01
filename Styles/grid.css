@@ -1,0 +1,37 @@
+/* img.list{  
+    background-size: contain;
+    /* background-size: cover;
+    width: 30px;
+    height: auto;
+    display: block;
+    opacity: 0.5;
+}     */
+
+.list {
+    display: flex;
+    list-style: none;
+    width: 20%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    .figure-img img{
+        display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(169px, 1fr)); */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        
+        width: 80%;
+        
+    }
+} 
+
+/* @media screen and (widht > 768) {
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        img {
+            width: 100%;
+        }
+    }
+    
+} */

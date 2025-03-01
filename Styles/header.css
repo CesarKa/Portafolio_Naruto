@@ -43,7 +43,7 @@
 
 .list-principal {
     list-style: none;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 .list-principal li {
@@ -57,12 +57,12 @@
     text-transform: uppercase;
     display: block;
 }
-.list-principal .btn:hover {
+ .list-principal .btn:hover {
     background-color: white;  
     color: rgb(196, 172, 172); 
     border-radius: 5px;       
-    transition: 1s ease;         
-}
+    transition: background-color 1s, ease color 1s ease;         
+} 
 /* Mostrar menú cuando el checkbox está activado */
 .menu-toggle:checked + .menu-icon + .nav {
     display: block;
