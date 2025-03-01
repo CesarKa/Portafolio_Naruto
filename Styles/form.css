@@ -1,11 +1,20 @@
-form {
+/* form {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espaciado entre elementos */
-    max-width: 400px; /* Ancho máximo del formulario */
-    margin: auto; /* Centrar en pantalla */
-}
+    gap: 15px;
+    max-width: 400px; 
+    margin: auto;
+}*/
 
+.form-container {
+    background: rgb(26, 5, 5);
+    padding: 20px;
+    border: 5px solid #e9a75c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(143, 142, 142, 0.2);
+    gap: 2%;
+
+}
 .form-element {
     display: flex;
     flex-direction: column;
