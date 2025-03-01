@@ -7,17 +7,7 @@
     border-radius: 5px;
     border: 1px solid #e9a75c;
     transition: all 0.3s;
-    /* cursor: pointer; */
-    &.secondary {
-        background-color: transparent;
-        border: 1px solid var(--main-text-color);
-    }
+    cursor: pointer;
 }
 
-@media screen and (width > 768px) { 
-    .btn{
-        display: none;
-    }
 
-
-}
