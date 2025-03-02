@@ -1,16 +1,11 @@
 .footer {
-    background-color: rgb(122, 10, 10);
+    background-color: rgb(168, 45, 45);
     color: white;
-    justify-content: center;
-    anchor-scope: none;
-    /* overflow-wrap: break-word; */
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
-    /* margin: 2rem 2rem; */
-    /* border-color: white;
-    border-width: 10px; */
-    /* border: 0.1rem solid white; */
-    text-align: center;
-    padding: 1rem;
-    
+    .footer-logos{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        anchor-scope: none;
+        padding: 1rem;
+    }
 }
