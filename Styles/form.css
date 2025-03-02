@@ -15,7 +15,7 @@
     margin-bottom: 5%;
 
 }
-.form-element {
+.form-group {
     display: flex;
     flex-direction: column;
     padding: 2%;
@@ -43,9 +43,25 @@ fieldset {
         margin: 0px;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
-        /* li {
-            margin-bottom: 20px;
-        } */
+        gap: 1rem;   
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .form-element {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; 
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    
+    fieldset ul {
+        display: flex;
+        flex-direction: column;
     }
 }
